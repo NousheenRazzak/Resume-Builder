@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <div class="main">
+        <div class="resume">
+            <!-- Profile Image -->
+            <div class="image">
+                <img src="profile-picture.PNG" alt="Profile Picture">
+            </div>
+            <!-- Presonal Information -->
+            <div class="name">
+                <h2>Nousheen A-Razzak</h2>
+            </div>
+            <div class="contact">
+                <h3>033123456789</h3>
+            </div>
+            <br>
+            <hr>
+            <div class="objective">
+                <h3>Objective</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, illo! Error perferendis quod eius temporibus enim? Fugiat eligendi debitis asperiores eos! Iusto temporibus tenetur repudiandae ullam ab impedit, porro quasi.</p>
+            </div>
+            <hr>
+            <div class="educationSection">
+                <button onclick="clickMe()">Education</button>
+                <div class="education" id="myDiv">
+                    <div>
+                        <h4>Matriculation</h4>
+                        <p>Kutyana Memon Association</p>
+                        <p>2010</p>
+                    </div>
+                    <div>
+                        <h4>Graduation</h4>
+                        <p>Govt. Commerce College</p> 
+                        <p>2016</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="skillSection">
+                <button onclick="clickMe2()">Skills</button>
+                <div class="skills" id="myDiv2">
+                    <ul>
+                        <li>WordPress Developer</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="experienceSection">
+                <button onclick="clickMe3()">Experience</button>
+                <div class="experience" id="myDiv3">
+                    <h3>WordPress Developer</h3>
+                    <p>XYZ Company</p>
+                    <p>2020 - 2024</p>
+                    <h3>Responsibilities: </h3>
+                    <ul>
+                        <li>Build a business website using WordPress and Elementor.</li>
+                        <li>Website optimization and backup.</li>
+                        <li>Created Staging site.</li>
+                        <li>Theme Customization and Plugins setting.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
